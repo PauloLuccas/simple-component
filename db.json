@@ -1,0 +1,23 @@
+ {
+    "nodeDataArray": [
+        [
+            { "key": 1, "text": "one", "color": "lightyellow" },
+            { "key": 2, "text": "two", "color": "brown" },
+            { "key": 3, "text": "three", "color": "green" },
+            { "key": 4, "text": "four", "color": "slateblue" },
+            { "key": 5, "text": "five", "color": "aquamarine" },
+            { "key": 6, "text": "six", "color": "lightgreen" },
+            { "key": 7, "text": "seven" }
+          ],
+          [
+            { "from": 5, "to": 6, "color": "orange" },
+            { "from": 1, "to": 2, "color": "red" },
+            { "from": 1, "to": 3, "color": "blue" },
+            { "from": 1, "to": 4, "color": "goldenrod" },
+            { "from": 2, "to": 5, "color": "fuchsia" },
+            { "from": 3, "to": 5, "color": "green" },
+            { "from": 4, "to": 5, "color": "black" },
+            { "from": 6, "to": 7 }
+        ]
+    ]
+}

@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "db:serve": "json-server --watch db.json --port=3001",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.26.0",
     "core-js": "^3.8.3",
-    "gojs-vue": "^1.0.1",
+    "gojs": "^2.2.5",
     "vue": "^3.2.13"
   },
   "devDependencies": {
